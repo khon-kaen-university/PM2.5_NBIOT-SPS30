@@ -4,9 +4,9 @@
 #define SP30_COMMS I2C_COMMS
 
 String apnName = "devkit.nb";
-String serverIP = "202.28.95.210";
-String serverPort = "40208";
-String nodeName = "8";
+String serverIP = "{IP Server}";
+String serverPort = "{Port}";
+String nodeName = "{node number}";
 
 AIS_NB_BC95 AISnb;
 SPS30 sps30;
